@@ -125,7 +125,7 @@ function App() {
     console.log('On track event triggered', event.streams)
     if(peerVideoRef.current){
       peerVideoRef.current.srcObject = event.streams[0]
-      peerVideoRef.current.muted = true
+//       peerVideoRef.current.muted = true
       console.log('peervideo', peerVideoRef)
     }
   }
