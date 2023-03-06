@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import socketIO from 'socket.io-client'
 
-const socket = socketIO.connect('http://localhost:4000')
+const socket = socketIO.connect('https://video-chat-59d90.web.app')
 
 function App() {
 
@@ -155,6 +155,7 @@ function App() {
         })
       })
     }
+    // eslint-disable-next-line
   }, [gotOffer, creator, offers, userStream])
 
   socket.off('offer').on('offer', (offer)=>{
