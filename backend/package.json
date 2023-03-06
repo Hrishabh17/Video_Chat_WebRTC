@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix ../frontend/",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\""
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start2":"nodemon server.js"
   },
   "keywords": [],
   "author": "",
