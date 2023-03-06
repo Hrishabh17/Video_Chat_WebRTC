@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import socketIO from 'socket.io-client'
 
-const socket = socketIO.connect('https://video-chat-59d90.web.app')
+const socket = socketIO.connect('https://chat-n-chill.onrender.com')
 
 function App() {
 
