@@ -10,7 +10,7 @@ const server = http.createServer(app)
 
 const io = socketIO(server, {
     cors:{
-        origin:'https://chat-n-chill.netlify.app',
+        origin:'*',
         methods:['GET', 'POST']
     }
 })
